@@ -1,10 +1,13 @@
 
 function App() {
-  
+  return <main>
+    <div>
+      Players
 
-  return (
-    <h2>Coming soon...</h2>
-  )
+      Game board
+    </div>
+    Log
+  </main>
 }
 
 export default App
