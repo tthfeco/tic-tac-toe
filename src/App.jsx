@@ -1,7 +1,7 @@
 
 function App() {
   return <main>
-    <div>
+    <div id="game-conatiner">
       Players
 
       Game board
