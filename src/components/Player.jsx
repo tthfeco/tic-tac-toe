@@ -13,7 +13,7 @@ export default function Player({ player, symbol }) {
         <span className="player-name">{player}</span>
         <span className="player-symbol">{symbol}</span>
       </span>
-      <button onClick={() => handleClik()}>Edit</button>
+      <button onClick={handleClik}>Edit</button>
     </li>
   );
 }
