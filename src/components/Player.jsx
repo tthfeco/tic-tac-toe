@@ -8,11 +8,11 @@ export default function Player({ player, symbol }) {
   }
 
   let playerName = <span className="player-name">{player}</span>;
-  let btnCaption = 'Edit';
+  // let btnCaption = 'Edit';
 
   if (isEditing){
     playerName = <input type="text" required  value={player}/>;
-    btnCaption = 'Save'
+    // btnCaption = 'Save'
   }
 
   return (
