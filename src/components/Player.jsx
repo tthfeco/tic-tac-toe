@@ -11,7 +11,7 @@ export default function Player({ player, symbol }) {
   // let btnCaption = 'Edit';
 
   if (isEditing){
-    playerName = <input type="text" required  value={player}/>;
+    playerName = <input type="text" required value={player}/>;
     // btnCaption = 'Save'
   }
 
